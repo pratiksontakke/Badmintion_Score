@@ -1,0 +1,80 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- bootstrapcdn -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<!-- google font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div>
+			<h1 class="bcl">Badminton Champions League</h1>
+			<h2 class="vs"> <span id="team1">Team 1</span>  v/s <span id="team2">Team 2</span></h2>
+		</div>
+			<div class="center text-center row">
+				<div class="card-deck col">
+					<div class="card text-white bg-warning mb-3">
+						<div class="card-header">TEAM 1</div>
+						<div class="card-body">
+							<h5 class="card-title">Current Score</h5>
+							<p class="card-text">
+								<p class="serif">6</p>
+							</p>
+							<button type="button" class="btn btn-light btn1">+1</button>
+							<button type="button" class="btn btn-light btn1">-1</button>
+						</div>
+					</div>				
+					<div class="card text-white bg-danger mb-3">
+						<div class="card-header">TEAM 2</div>
+						<div class="card-body">
+							<h5 class="card-title">Current Score</h5>
+							<p class="card-text">
+								<p class="serif">2</p>
+							</p>
+							<button type="button" class="btn btn-light btn1">+1</button>
+							<button type="button" class="btn btn-light btn1">-1</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<!-- <button id="reset" type="button" class="btn btn-light btn-lg">Court Change </button> -->
+				<button id="reset" type="button" class="btn btn-info btn-lg">Reset </button>
+
+			</div>
+		
+		<footer class="footer">
+			<p><b>&#169 2020 Pratik Sontakke</b> </p>
+		</footer>
+
+		<!-- bootstrap js script -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+.serif {
+	font-family: "David Libre", serif;
+	font-size: 6rem;
+	font-weight: bold;
+}
+.center {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+}
+body {
+	background-image: url(./assets/16765.jpg);
+	background-size: cover; /* <------ */
+	background-repeat: no-repeat;
+	background-position: center center; /* optional, center the image */
+}
+
+.bcl {
+	color: #ffffff;
+	font-family: "Great Vibes", cursive;
+	font-size: 70px;
+	line-height: 100px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+}
+.vs {
+	color: #ffffff;
+	font-family: "Lato", sans-serif;
+	font-size: 54px;
+	font-weight: 300;
+	line-height: 58px;
+	margin: 58px;
+	text-align: center;
+}
+.btn1 {
+	padding-left: 9%;
+	padding-right: 9%;
+	margin-right: 8%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-left: 8%;
+	font-size: 1rem;
+}
+
+footer {
+	color: azure;
+	text-align: center;
+	margin-top: 30px;
+}
