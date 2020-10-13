@@ -15,35 +15,51 @@
 			href="https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap"
 			rel="stylesheet"
 		/>
+		<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div>
-			<h1 class="bcl">Badminton Champions League</h1>
-			<h2 class="vs"> <span id="team1">Team 1</span>  v/s <span id="team2">Team 2</span></h2>
+			<h1 class="bcl">Badminton Champions League <span class="currentYear"></span> </h1>
+			<div id="teamName">
+				<!-- <div class="container center text-center temNameMargin">
+					<div class="row justify-content-md-center">
+						<div class="col-lg-4">
+							<input type="text" class="form-control margin" placeholder="Team A">
+						</div>
+						<div class="col-lg-4">
+						<input type="text" class="form-control margin" placeholder="Team B">
+						</div>
+						<div class="col-lg-2">
+							<button id="reset" type="button" class="btn btn-info btn margin">Submit</button>
+						</div>
+					</div>
+				</div> -->
+			</div> 
+			<h2 class="vs"> <span id="team1" style="color: #ffc107;"> Team A</span> <p class="vbs">V/S</p>  <span id="team2" style="color: #dc3545;"> Team B</span></h2>
 		</div>
 			<div class="center text-center row">
 				<div class="card-deck col">
 					<div class="card text-white bg-warning mb-3">
-						<div class="card-header">TEAM 1</div>
+						<div class="card-header">TEAM A</div>
 						<div class="card-body">
 							<h5 class="card-title">Current Score</h5>
 							<p class="card-text">
-								<p class="serif">6</p>
+								<p class="serif card1" id="teamAsc">0</p>
 							</p>
-							<button type="button" class="btn btn-light btn1">+1</button>
-							<button type="button" class="btn btn-light btn1">-1</button>
+							<button id="1" type="button" class="btn btn-light btn1 addone">+1</button>
+							<button id="2" type="button" class="btn btn-light btn1 addone">-1</button>
 						</div>
 					</div>				
 					<div class="card text-white bg-danger mb-3">
-						<div class="card-header">TEAM 2</div>
+						<div class="card-header">TEAM B</div>
 						<div class="card-body">
 							<h5 class="card-title">Current Score</h5>
 							<p class="card-text">
-								<p class="serif">2</p>
+								<p class="serif card2" id="teamBsc">0</p>
 							</p>
-							<button type="button" class="btn btn-light btn1">+1</button>
-							<button type="button" class="btn btn-light btn1">-1</button>
+							<button id="3"  type="button" class="btn btn-light btn1 addone">+1</button>
+							<button id="4" type="button" class="btn btn-light btn1 addone">-1</button>
 						</div>
 					</div>
 				</div>
@@ -55,7 +71,7 @@
 			</div>
 		
 		<footer class="footer">
-			<p><b>&#169 2020 Pratik Sontakke</b> </p>
+			<p><b>&#169 <span id="currentYear" class="currentYear"></span> Pratik Sontakke</b> </p>
 		</footer>
 
 		<!-- bootstrap js script -->
