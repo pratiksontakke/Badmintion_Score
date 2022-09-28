@@ -4,7 +4,7 @@
 Just for learning and get command over the JavaScript, HTML and CSS.
 
 ## Deployed link of project
-- <a href="https://stirring-gaufre-2d7cb5.netlify.app/">badminton.com </a>
+- <a href="https://sprightly-puffpuff-fce881.netlify.app/">badminton.com </a>
 
 ## Team Members
 
